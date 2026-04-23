@@ -17,6 +17,21 @@
       margin: 0 auto;
       padding: 48px 24px 72px;
     }
+    .topbar {
+      margin-bottom: 18px;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: rgba(181, 108, 255, 0.16);
+      border: 1px solid rgba(181, 108, 255, 0.28);
+      color: #f4e4ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
     h1, h2 { color: #ffffff; }
     .panel {
       background: rgba(16, 20, 44, 0.88);
@@ -27,10 +42,18 @@
     }
     p, li { color: #c6cdea; }
     a { color: #f0d6ff; }
+    .contact {
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(181, 108, 255, 0.2);
+    }
   </style>
 </head>
 <body>
   <main>
+    <div class="topbar">
+      <a class="back-link" href="index.html">Back to Home</a>
+    </div>
     <div class="panel">
       <h1>Privacy Policy for Dark Realm Puzzle</h1>
       <p>Effective date: April 22, 2026</p>
@@ -52,7 +75,12 @@
       <p>This privacy policy may be updated in the future if the app adds new functionality or services. If that happens, an updated version will be published at this page.</p>
 
       <h2>Contact</h2>
-      <p>If you publish this app publicly, replace this paragraph with your own support contact details or support webpage before submitting to App Store Connect.</p>
+      <p>If you have any questions about this privacy policy or the app, please use the developer contact information below.</p>
+      <div class="contact">
+        <p><strong>Developer:</strong> Wang Cong</p>
+        <p><strong>Phone:</strong> <a href="tel:+8618688152210">+86 18688152210</a></p>
+        <p><strong>Email:</strong> <a href="mailto:215117673@qq.com">215117673@qq.com</a></p>
+      </div>
     </div>
   </main>
 </body>
